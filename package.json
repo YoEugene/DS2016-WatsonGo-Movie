@@ -1,0 +1,15 @@
+{
+  "name": "movie-recommendation",
+  "version": "0.0.1",
+  "description": "A Movie Recommendation system for NTU DS2016 final project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "python-shell": "^0.4.0"
+  }
+}

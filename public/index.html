@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="movieapp">
+<head>
+	<meta charset="UTF-8">
+	<title>Movie Watson</title>
+
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.3/css/uikit.almost-flat.min.css" />
+</head>
+<body ng-controller="MainCtrl" ng-init="init()">
+	<h1>HAHAHA!</h1>
+	<h1>{{title}}</h1>
+
+	<input type="text" ng-model="moviename">
+
+    <button ng-click="test()" class="uk-button-primary uk-button-large" type="button">TEST</button>
+
+	<ul class="uk-list uk-list-line">
+		<li ng-repeat="result in results">{{result}}</li>
+	</ul>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.3/js/uikit.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
